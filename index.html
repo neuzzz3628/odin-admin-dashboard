@@ -7,6 +7,255 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
+    <div class="nav">
+        <div class="logo img"></div>
+        <h2 class="logo text">Dashboard</h2>
+        <div class="task img"></div>
+        <div class="task text">Tasks</div>
+        <div class="hist img"></div>
+        <div class="hist text">History</div>
+        <div class="comm img"></div>
+        <div class="comm text">Communities</div>
+        <div class="supp img"></div>
+        <div class="supp text">Support</div>
+        <div class="priv img"></div>
+        <div class="priv text">Privacy</div>
+    </div>
+    <div class="header">
+        <div class="search-bar">
+            <form action="/search" method="get">
+                <label for="search_name">
+                    <img src="./assets/header/magnify.svg" alt="Search Icon">
+                </label>
+                <input type="search" id="search_name" name="search_name" placeholder="Search..." required>
+            </form>
+        </div>
+        <div class="account">
+            <img src="./assets/header/bell-ring-outline.svg" alt="Notification Icon">
+            <img src="./assets/header/message-outline.svg" alt="Message Icon">
+            <div class="dropdown">
+                <button for="account_details" class="dropdown-toggle" id="menuButton">
+                    <img src="https://avatar.iran.liara.run/public/boy?username=Neuz" />
+                </button>
+                <div class="dropdown-menu" id="menuList">
+                    <a href="#">Profile</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-profile">
+            <img src="https://avatar.iran.liara.run/public/boy?username=Neuz" />
+            <div class="profile-text">
+                <div>Hi there,</div>
+                <div id="main-name">Thinh Ngo (@neuz)</div>
+            </div>
+        </div>
+        <div class="home-buttons">
+            <button class="button-1">Create</button>
+            <button class="button-2">Import</button>
+            <button class="button-3">Share</button>
+        </div>
+    </div>
+    <div class="projects">
+        <div class="main-body">
+            <h3 class="title">Your Projects</h3>
+            <div class="main-body-container">
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 1</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 2</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 3</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 4</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 5</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 6</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 7</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 8</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 9</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 10</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+                <div class="dummy-project">
+                    <h4 class="dummy-title">Project 11</h4>
+                    <div class="dummy-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam neque eaque necessitatibus vel! Quod, enim sit nobis repellat aspernatur quas.</div>
+                    <div class="action">
+                        <img class="link-1" src="./assets/items/star-plus-outline.svg" alt="Favorite Icon">
+                        <img class="link-2" src="./assets/items/eye-circle-outline.svg" alt="View Icon">
+                        <img class="link-3" src="./assets/items/share-variant.svg" alt="Share Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h3 class="title">Announcements</h3>
+            <div class="sidebar-container announcement">
+                <div class="post">Site Maintenance
+                    <div class="summary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque incidunt autem ad ab inventore, maxime sit! Exercitationem saepe qui eaque?</div>
+                </div>
+                <div class="post">Community Share Day
+                    <div class="summary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam quibusdam laborum rerum harum, corporis itaque unde molestias dolorum soluta dicta.</div>
+                </div>
+                <div class="post">Updated Privacy Policy
+                    <div class="summary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi minus non neque totam consequatur architecto, dolor corrupti fuga dolore vitae.</div>
+                </div>
+            </div>
+            <h3 class="title">Trending</h3>
+            <div class="sidebar-container trending">
+                <div class="trend-name">
+                    <img class="profile" src="https://avatar.iran.liara.run/public/boy?username=Tegan" />
+                    <div class="nameID">@tegan
+                        <div class="trend-project">World Peace Builder</div>
+                    </div>
+                    <img class="like" src="assets/sidebar/thumb-up.svg" alt="Like Icon">305
+                </div>
+                <div class="trend-name">
+                    <img class="profile" src="https://avatar.iran.liara.run/public/boy?username=Morgan" />
+                    <div class="nameID">@morgan
+                        <div class="trend-project">Super Cool Project</div>
+                    </div>
+                    <img class="like" src="assets/sidebar/thumb-up.svg" alt="Like Icon">141
+                </div>
+                <div class="trend-name last">
+                    <img class="profile" src="https://avatar.iran.liara.run/public/girl?username=Kendall" />
+                    <div class="nameID">@kendall
+                        <div class="trend-project">Life Changing App</div>
+                    </div>
+                    <img class="like" src="assets/sidebar/thumb-up.svg" alt="Like Icon">110
+                </div>
+                <!-- <div class="trend-name last">
+                    <img src="https://avatar.iran.liara.run/public/boy?username=Alex" />
+                    <div class="nameID">@alex
+                        <div class="trend-project">No Traffic Maker</div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
     
+    <script>
+        const button = document.getElementById('menuButton');
+        const menu = document.getElementById('menuList');
+      
+        button.addEventListener('click', () => {
+          menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        });
+      
+        // Optional: Close when clicking outside
+        document.addEventListener('click', (e) => {
+          if (!button.contains(e.target) && !menu.contains(e.target)) {
+            menu.style.display = 'none';
+          }
+        });
+
+        function applyGroupHover(selector) {
+    const elements = document.querySelectorAll(selector);
+    elements.forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            elements.forEach(e => e.classList.add('hovered'));
+        });
+        el.addEventListener('mouseleave', () => {
+            elements.forEach(e => e.classList.remove('hovered'));
+        });
+    });
+}
+
+applyGroupHover('.task');
+applyGroupHover('.hist');
+applyGroupHover('.comm');
+applyGroupHover('.supp');
+applyGroupHover('.priv');
+
+function applyGroupHighlight(selector) {
+    const elements = document.querySelectorAll(selector);
+    elements.forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            elements.forEach(e => e.classList.add('highlight'));
+        });
+        el.addEventListener('mouseleave', () => {
+            elements.forEach(e => e.classList.remove('highlight'));
+        });
+    });
+}
+
+applyGroupHighlight('.logo');
+
+    </script>
+      
 </body>
 </html>
