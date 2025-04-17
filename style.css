@@ -510,3 +510,7 @@ body {
   font-size: 0.8em;
   color: rgb(80, 80, 80);
 }
+
+.last{
+  padding-bottom: 1rem;
+}
